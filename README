@@ -5,6 +5,4 @@ surefire -> run unit test
 
 > mvn clean install -DskipTests --> skip all test (testU & IT)
 
-
-
-
+> mvn release:prepare release:perform -Darguments="-DskipTests" --> skip test when release jar
