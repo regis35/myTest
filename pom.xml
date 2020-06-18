@@ -18,6 +18,11 @@
         <java.version>11</java.version>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://github.com/regis35/myTest.git</connection>
+        <developerConnection>scm:git:https://github.com/regis35/myTest.git</developerConnection>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
