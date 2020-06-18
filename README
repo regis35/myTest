@@ -1,14 +1,10 @@
 Ref :  https://www.baeldung.com/maven-integration-test
 
-# Run only unit test
-> mvn test
-> mvn verify -Psurefire
+failsafe -> run IT
+surefire -> run unit test
 
+> mvn clean install -DskipTests --> skip all test (testU & IT)
 
-# Permet de passer les tests
-> mvn clean install -DskipTests
-
-mvn verify -Pfailsafe
 
 
 
