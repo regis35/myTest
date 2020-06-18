@@ -9,7 +9,7 @@
     </parent>
     <groupId>bzh.redge</groupId>
     <artifactId>MyTest</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>MyTest</name>
     <description>TestU and IT</description>
 
@@ -20,7 +20,7 @@
     <scm>
         <connection>scm:git:https://github.com/regis35/myTest.git</connection>
         <developerConnection>scm:git:https://github.com/regis35/myTest.git</developerConnection>
-      <tag>MyTest-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
